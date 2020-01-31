@@ -33,11 +33,6 @@ test_group_path: GenerambaExampleTests/Classes/Modules
 
 ### Templates
 catalogs:
-#- 'https://github.com/rambler-digital-solutions/generamba-catalog'
-#- 'https://github.com/igrekde/my-own-catalog'
 - https://github.com/lucabelezal/generamba-catalog
 templates:
-#- {name: rviper_controller}
-#- {name: local_template_name, local: 'absolute/file/path'}
-#- {name: remote_template_name, git: 'https://github.com/igrekde/remote_template'}
-- {name: cb_mvvm, git: 'https://github.com/lucabelezal/generamba-catalog'}
+- {name: cb_mvvm}

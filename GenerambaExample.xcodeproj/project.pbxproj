@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6AEB71D07B42C0AC33DB4FF7 /* CBListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE62A1673D743B312701FAD /* CBListViewController.swift */; };
+		992DAC23ECB0F41B6038D8BB /* CBListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8918006555E9FBD17ECE485 /* CBListViewControllerTests.swift */; };
 		B312C38423E4C8A4006B96E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B312C38323E4C8A4006B96E7 /* AppDelegate.swift */; };
 		B312C38623E4C8A4006B96E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B312C38523E4C8A4006B96E7 /* SceneDelegate.swift */; };
 		B312C38823E4C8A4006B96E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B312C38723E4C8A4006B96E7 /* ViewController.swift */; };
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8CE62A1673D743B312701FAD /* CBListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBListViewController.swift; sourceTree = "<group>"; };
 		B312C38023E4C8A4006B96E7 /* GenerambaExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenerambaExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B312C38323E4C8A4006B96E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B312C38523E4C8A4006B96E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +41,7 @@
 		B312C39623E4C8A5006B96E7 /* GenerambaExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenerambaExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B312C39A23E4C8A5006B96E7 /* GenerambaExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerambaExampleTests.swift; sourceTree = "<group>"; };
 		B312C39C23E4C8A5006B96E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8918006555E9FBD17ECE485 /* CBListViewControllerTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBListViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		452B9543FF7CE787E26CEE48 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D8918006555E9FBD17ECE485 /* CBListViewControllerTests.swift */,
+			);
+			name = ViewController;
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4BA909910F12A04158B6E3F1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7B23C9258711901686A00E81 /* Modules */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		65B0DF5FF8CF60DD82D99F9D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E6C458103BADB4B20F7EDC17 /* List */,
+			);
+			name = Modules;
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		7A0A4BC9F472B46D2F8370B3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8CE62A1673D743B312701FAD /* CBListViewController.swift */,
+			);
+			name = ViewController;
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7B23C9258711901686A00E81 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B7137E3E4E894FC2B0A99C94 /* List */,
+			);
+			name = Modules;
+			path = Modules;
+			sourceTree = "<group>";
+		};
 		B312C37723E4C8A4006B96E7 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +135,7 @@
 				B312C38C23E4C8A5006B96E7 /* Assets.xcassets */,
 				B312C38E23E4C8A5006B96E7 /* LaunchScreen.storyboard */,
 				B312C39123E4C8A5006B96E7 /* Info.plist */,
+				4BA909910F12A04158B6E3F1 /* Classes */,
 			);
 			path = GenerambaExample;
 			sourceTree = "<group>";
@@ -95,8 +145,36 @@
 			children = (
 				B312C39A23E4C8A5006B96E7 /* GenerambaExampleTests.swift */,
 				B312C39C23E4C8A5006B96E7 /* Info.plist */,
+				C49AF926CA4666C4AB514387 /* Classes */,
 			);
 			path = GenerambaExampleTests;
+			sourceTree = "<group>";
+		};
+		B7137E3E4E894FC2B0A99C94 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				7A0A4BC9F472B46D2F8370B3 /* ViewController */,
+			);
+			name = List;
+			path = List;
+			sourceTree = "<group>";
+		};
+		C49AF926CA4666C4AB514387 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				65B0DF5FF8CF60DD82D99F9D /* Modules */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E6C458103BADB4B20F7EDC17 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				452B9543FF7CE787E26CEE48 /* ViewController */,
+			);
+			name = List;
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +281,7 @@
 				B312C38823E4C8A4006B96E7 /* ViewController.swift in Sources */,
 				B312C38423E4C8A4006B96E7 /* AppDelegate.swift in Sources */,
 				B312C38623E4C8A4006B96E7 /* SceneDelegate.swift in Sources */,
+				6AEB71D07B42C0AC33DB4FF7 /* CBListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B312C39B23E4C8A5006B96E7 /* GenerambaExampleTests.swift in Sources */,
+				992DAC23ECB0F41B6038D8BB /* CBListViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
